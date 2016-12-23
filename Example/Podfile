@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RouteGeofencing_Example' do
+  pod 'RouteGeofencing', :path => '../'
+
+  target 'RouteGeofencing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
