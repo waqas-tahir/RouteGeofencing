@@ -1,0 +1,6 @@
+framework module Pods_RouteGeofencing_Tests {
+  umbrella header "Pods-RouteGeofencing_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

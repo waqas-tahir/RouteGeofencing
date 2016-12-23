@@ -1,0 +1,16 @@
+PODS:
+  - RouteGeofencing (0.1.0)
+
+DEPENDENCIES:
+  - RouteGeofencing (from `../`)
+
+EXTERNAL SOURCES:
+  RouteGeofencing:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RouteGeofencing: 610e3761e4d03008fb16728d363e593d078d4735
+
+PODFILE CHECKSUM: 8d67392ef68f8f5132ea5162724deb03e43bd659
+
+COCOAPODS: 1.1.1

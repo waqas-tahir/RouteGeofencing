@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00ECD1193C5D2B6BA14A298A95543C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		128202F4E7DB20FA69A164C9207657FC /* Pods-RouteGeofencing_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE54776C8997D40856BA49FD5308B25 /* Pods-RouteGeofencing_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2179B17C593C1D4E596EFAC2D72C55AE /* RouteGeofencing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6207631BB48A8924172C23BD9612B11C /* RouteGeofencing-dummy.m */; };
+		39B1D580C458742BE544C2154F0CBAA8 /* Pods-RouteGeofencing_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A31304A5527D098D401A610BC8033AA6 /* Pods-RouteGeofencing_Tests-dummy.m */; };
+		5BB9C683724B41DB83913FE101667DEA /* Pods-RouteGeofencing_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB5F9682BB65BB982FD1B8650281A50 /* Pods-RouteGeofencing_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99C277CB38C1211AAB34DB1AC1F623A2 /* Pods-RouteGeofencing_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CDD7772E0BD576DAD0C1244128553C /* Pods-RouteGeofencing_Example-dummy.m */; };
+		BBD1535CC6F7841C12F7976BFA9D1059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C1420B87E11079766BF737808C9112D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		ECD1143B7FBC727529469045FE24D70D /* RouteGeofencing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B60B2806EEB6C982312E12A7CEADFA4D /* RouteGeofencing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F547DCE5BC1BF5EF27A62A6315B105EF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD74D70C9AF2BADBB74077034863BB4 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		052A893F444CEC1EB9629EA102745AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57098CA4C63FCA4E7F4A435BDB028448;
+			remoteInfo = RouteGeofencing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003242090ACFAB0497600BC1EDD2A329 /* Pods-RouteGeofencing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouteGeofencing_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0840F75FED886D806E9AECEB2E3D53EA /* Pods-RouteGeofencing_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RouteGeofencing_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13056CF6EFDBE1C85C965636CA79D565 /* Pods-RouteGeofencing_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RouteGeofencing_Tests.modulemap"; sourceTree = "<group>"; };
+		1994D4F0CB8EA24A21DA422D1A459E9E /* Pods-RouteGeofencing_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RouteGeofencing_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D63ADCF76603DB1A3CAECC7EC453AD5 /* Pods-RouteGeofencing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouteGeofencing_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		26DD18F39274976E9AFF9F500AEE4BE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276A5B9B763D0C01C57BE93E76AD16B3 /* Pods-RouteGeofencing_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RouteGeofencing_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D71AC9D11C1B5AFB68E3131EF37F6E8 /* Pods-RouteGeofencing_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RouteGeofencing_Example.modulemap"; sourceTree = "<group>"; };
+		2D977D81B61BA20DB80AEDAF3E6660F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D526AD12DD0FB697A7DE446DBAD1EBA /* Pods-RouteGeofencing_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouteGeofencing_Example-frameworks.sh"; sourceTree = "<group>"; };
+		474D9C690BEEBC0F4C4AE2F0805C761E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6207631BB48A8924172C23BD9612B11C /* RouteGeofencing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RouteGeofencing-dummy.m"; sourceTree = "<group>"; };
+		62E515ED14CE0610122CCE6BDA4A7259 /* RouteGeofencing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RouteGeofencing.framework; path = RouteGeofencing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CDD7772E0BD576DAD0C1244128553C /* Pods-RouteGeofencing_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RouteGeofencing_Example-dummy.m"; sourceTree = "<group>"; };
+		758BC5FD3B7D3190491CD5C0B746A407 /* RouteGeofencing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RouteGeofencing.modulemap; sourceTree = "<group>"; };
+		7AB1024450BD471891EE6A69F3768678 /* RouteGeofencing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RouteGeofencing.xcconfig; sourceTree = "<group>"; };
+		7EFB4C9364547F2A6535B78043C6760A /* Pods-RouteGeofencing_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouteGeofencing_Tests-resources.sh"; sourceTree = "<group>"; };
+		837444043F04C9EF7D252251FCF10B79 /* RouteGeofencing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouteGeofencing-prefix.pch"; sourceTree = "<group>"; };
+		8377CA03C6FF3B906BA3CF0E1E9706B1 /* Pods_RouteGeofencing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RouteGeofencing_Tests.framework; path = "Pods-RouteGeofencing_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A31304A5527D098D401A610BC8033AA6 /* Pods-RouteGeofencing_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RouteGeofencing_Tests-dummy.m"; sourceTree = "<group>"; };
+		A7F12171F3D3319182E829D7C8A46EAE /* Pods-RouteGeofencing_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouteGeofencing_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A848FDFA7552F0C73263F1D3690B355E /* Pods-RouteGeofencing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouteGeofencing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABB5F9682BB65BB982FD1B8650281A50 /* Pods-RouteGeofencing_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RouteGeofencing_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B60B2806EEB6C982312E12A7CEADFA4D /* RouteGeofencing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouteGeofencing-umbrella.h"; sourceTree = "<group>"; };
+		BFE54776C8997D40856BA49FD5308B25 /* Pods-RouteGeofencing_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RouteGeofencing_Example-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCD7A1937978C5D9739EC79A28A0A766 /* Pods-RouteGeofencing_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouteGeofencing_Example-resources.sh"; sourceTree = "<group>"; };
+		D1C96E6EC771B938005FBEA81A7E1DF0 /* Pods-RouteGeofencing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouteGeofencing_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EC9349B7A87E8E11F00BBAE0FACC6E80 /* Pods-RouteGeofencing_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RouteGeofencing_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDD74D70C9AF2BADBB74077034863BB4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F3BC0D908502351B63A3C5C79631B42C /* Pods_RouteGeofencing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RouteGeofencing_Example.framework; path = "Pods-RouteGeofencing_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEFB4A2EADF4FEF266B7231E159A5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1420B87E11079766BF737808C9112D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCB7F0E4C2A53C31D8411C8D984B44A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00ECD1193C5D2B6BA14A298A95543C26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95804625CF80384A896E874E8A9ADC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD1535CC6F7841C12F7976BFA9D1059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A22C4A7E5286EEFB9C34C7F1E78E193 /* RouteGeofencing */ = {
+			isa = PBXGroup;
+			children = (
+				26757E1D45FF0103183AAB148AEEEEF7 /* RouteGeofencing */,
+				B7DA16B448F2D9E9173EA1B81544BE1E /* Support Files */,
+			);
+			name = RouteGeofencing;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		26757E1D45FF0103183AAB148AEEEEF7 /* RouteGeofencing */ = {
+			isa = PBXGroup;
+			children = (
+				A95A1075606E7B6BF44A37D238F14903 /* Classes */,
+			);
+			name = RouteGeofencing;
+			path = RouteGeofencing;
+			sourceTree = "<group>";
+		};
+		419F2267729B958055083691DAFD8C72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F01F85BE95F723CCAE3998E6C85F41 /* Pods-RouteGeofencing_Example */,
+				99B9FA1517B58CA8B0E7CD5711B21C3E /* Pods-RouteGeofencing_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		63F01F85BE95F723CCAE3998E6C85F41 /* Pods-RouteGeofencing_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D977D81B61BA20DB80AEDAF3E6660F1 /* Info.plist */,
+				2D71AC9D11C1B5AFB68E3131EF37F6E8 /* Pods-RouteGeofencing_Example.modulemap */,
+				0840F75FED886D806E9AECEB2E3D53EA /* Pods-RouteGeofencing_Example-acknowledgements.markdown */,
+				EC9349B7A87E8E11F00BBAE0FACC6E80 /* Pods-RouteGeofencing_Example-acknowledgements.plist */,
+				67CDD7772E0BD576DAD0C1244128553C /* Pods-RouteGeofencing_Example-dummy.m */,
+				3D526AD12DD0FB697A7DE446DBAD1EBA /* Pods-RouteGeofencing_Example-frameworks.sh */,
+				CCD7A1937978C5D9739EC79A28A0A766 /* Pods-RouteGeofencing_Example-resources.sh */,
+				BFE54776C8997D40856BA49FD5308B25 /* Pods-RouteGeofencing_Example-umbrella.h */,
+				1D63ADCF76603DB1A3CAECC7EC453AD5 /* Pods-RouteGeofencing_Example.debug.xcconfig */,
+				003242090ACFAB0497600BC1EDD2A329 /* Pods-RouteGeofencing_Example.release.xcconfig */,
+			);
+			name = "Pods-RouteGeofencing_Example";
+			path = "Target Support Files/Pods-RouteGeofencing_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F3DDB9E78FEF2A348961BEE79EB76C2C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CAE959F4D1677CDC585D4B45611AC017 /* Products */,
+				419F2267729B958055083691DAFD8C72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99B9FA1517B58CA8B0E7CD5711B21C3E /* Pods-RouteGeofencing_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				26DD18F39274976E9AFF9F500AEE4BE2 /* Info.plist */,
+				13056CF6EFDBE1C85C965636CA79D565 /* Pods-RouteGeofencing_Tests.modulemap */,
+				1994D4F0CB8EA24A21DA422D1A459E9E /* Pods-RouteGeofencing_Tests-acknowledgements.markdown */,
+				276A5B9B763D0C01C57BE93E76AD16B3 /* Pods-RouteGeofencing_Tests-acknowledgements.plist */,
+				A31304A5527D098D401A610BC8033AA6 /* Pods-RouteGeofencing_Tests-dummy.m */,
+				A7F12171F3D3319182E829D7C8A46EAE /* Pods-RouteGeofencing_Tests-frameworks.sh */,
+				7EFB4C9364547F2A6535B78043C6760A /* Pods-RouteGeofencing_Tests-resources.sh */,
+				ABB5F9682BB65BB982FD1B8650281A50 /* Pods-RouteGeofencing_Tests-umbrella.h */,
+				A848FDFA7552F0C73263F1D3690B355E /* Pods-RouteGeofencing_Tests.debug.xcconfig */,
+				D1C96E6EC771B938005FBEA81A7E1DF0 /* Pods-RouteGeofencing_Tests.release.xcconfig */,
+			);
+			name = "Pods-RouteGeofencing_Tests";
+			path = "Target Support Files/Pods-RouteGeofencing_Tests";
+			sourceTree = "<group>";
+		};
+		A95A1075606E7B6BF44A37D238F14903 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EDD74D70C9AF2BADBB74077034863BB4 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B7DA16B448F2D9E9173EA1B81544BE1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				474D9C690BEEBC0F4C4AE2F0805C761E /* Info.plist */,
+				758BC5FD3B7D3190491CD5C0B746A407 /* RouteGeofencing.modulemap */,
+				7AB1024450BD471891EE6A69F3768678 /* RouteGeofencing.xcconfig */,
+				6207631BB48A8924172C23BD9612B11C /* RouteGeofencing-dummy.m */,
+				837444043F04C9EF7D252251FCF10B79 /* RouteGeofencing-prefix.pch */,
+				B60B2806EEB6C982312E12A7CEADFA4D /* RouteGeofencing-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RouteGeofencing";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAE959F4D1677CDC585D4B45611AC017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BC0D908502351B63A3C5C79631B42C /* Pods_RouteGeofencing_Example.framework */,
+				8377CA03C6FF3B906BA3CF0E1E9706B1 /* Pods_RouteGeofencing_Tests.framework */,
+				62E515ED14CE0610122CCE6BDA4A7259 /* RouteGeofencing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3DDB9E78FEF2A348961BEE79EB76C2C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A22C4A7E5286EEFB9C34C7F1E78E193 /* RouteGeofencing */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18D83E4F5E0818A7D5A298EFC14086A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD1143B7FBC727529469045FE24D70D /* RouteGeofencing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF5561B367C8F2F14A0A2C004A85F29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB9C683724B41DB83913FE101667DEA /* Pods-RouteGeofencing_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8866AF07636E196FACA0677B446C0DDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128202F4E7DB20FA69A164C9207657FC /* Pods-RouteGeofencing_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0668617AC5AFACE3EF20A7A63F034317 /* Pods-RouteGeofencing_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAA9DCC79E79EE5F2296FE09385DC47 /* Build configuration list for PBXNativeTarget "Pods-RouteGeofencing_Example" */;
+			buildPhases = (
+				9E526F35694118F548FDEC29E77B5E05 /* Sources */,
+				2FCB7F0E4C2A53C31D8411C8D984B44A /* Frameworks */,
+				8866AF07636E196FACA0677B446C0DDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				351DE9A05E499868FF6A24B15466E88E /* PBXTargetDependency */,
+			);
+			name = "Pods-RouteGeofencing_Example";
+			productName = "Pods-RouteGeofencing_Example";
+			productReference = F3BC0D908502351B63A3C5C79631B42C /* Pods_RouteGeofencing_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57098CA4C63FCA4E7F4A435BDB028448 /* RouteGeofencing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D463E2EAFF47A26BC45F4A1B131F73 /* Build configuration list for PBXNativeTarget "RouteGeofencing" */;
+			buildPhases = (
+				32D3FBFA774A82E7DA1C1976FD4B4CB9 /* Sources */,
+				1FEFB4A2EADF4FEF266B7231E159A5CD /* Frameworks */,
+				18D83E4F5E0818A7D5A298EFC14086A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteGeofencing;
+			productName = RouteGeofencing;
+			productReference = 62E515ED14CE0610122CCE6BDA4A7259 /* RouteGeofencing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D096ED9E18B4CBA222D1DEFEFFB581EB /* Pods-RouteGeofencing_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2DED96DD9512168608FB292ABEAFE4 /* Build configuration list for PBXNativeTarget "Pods-RouteGeofencing_Tests" */;
+			buildPhases = (
+				69515CBF019825BB4EF6B88EE2573B47 /* Sources */,
+				E95804625CF80384A896E874E8A9ADC5 /* Frameworks */,
+				4FF5561B367C8F2F14A0A2C004A85F29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RouteGeofencing_Tests";
+			productName = "Pods-RouteGeofencing_Tests";
+			productReference = 8377CA03C6FF3B906BA3CF0E1E9706B1 /* Pods_RouteGeofencing_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CAE959F4D1677CDC585D4B45611AC017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0668617AC5AFACE3EF20A7A63F034317 /* Pods-RouteGeofencing_Example */,
+				D096ED9E18B4CBA222D1DEFEFFB581EB /* Pods-RouteGeofencing_Tests */,
+				57098CA4C63FCA4E7F4A435BDB028448 /* RouteGeofencing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32D3FBFA774A82E7DA1C1976FD4B4CB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F547DCE5BC1BF5EF27A62A6315B105EF /* ReplaceMe.m in Sources */,
+				2179B17C593C1D4E596EFAC2D72C55AE /* RouteGeofencing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69515CBF019825BB4EF6B88EE2573B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B1D580C458742BE544C2154F0CBAA8 /* Pods-RouteGeofencing_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E526F35694118F548FDEC29E77B5E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C277CB38C1211AAB34DB1AC1F623A2 /* Pods-RouteGeofencing_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		351DE9A05E499868FF6A24B15466E88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RouteGeofencing;
+			target = 57098CA4C63FCA4E7F4A435BDB028448 /* RouteGeofencing */;
+			targetProxy = 052A893F444CEC1EB9629EA102745AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30BDE55EAA8AA19BDBF08A6D2AEBD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB1024450BD471891EE6A69F3768678 /* RouteGeofencing.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RouteGeofencing/RouteGeofencing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RouteGeofencing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RouteGeofencing/RouteGeofencing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RouteGeofencing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F6E2FC315302FB06545EC7F1EB58D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003242090ACFAB0497600BC1EDD2A329 /* Pods-RouteGeofencing_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RouteGeofencing_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RouteGeofencing_Example/Pods-RouteGeofencing_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RouteGeofencing_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BB69B9A0BEC674D60823096485862467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D63ADCF76603DB1A3CAECC7EC453AD5 /* Pods-RouteGeofencing_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RouteGeofencing_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RouteGeofencing_Example/Pods-RouteGeofencing_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RouteGeofencing_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFE48D53BE89175A5A2636D0A819CCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C96E6EC771B938005FBEA81A7E1DF0 /* Pods-RouteGeofencing_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RouteGeofencing_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RouteGeofencing_Tests/Pods-RouteGeofencing_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RouteGeofencing_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7A48B23724CB286D423ED777D0C8825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A848FDFA7552F0C73263F1D3690B355E /* Pods-RouteGeofencing_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RouteGeofencing_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RouteGeofencing_Tests/Pods-RouteGeofencing_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RouteGeofencing_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FECB3641EC00F4729C481B12525F825B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB1024450BD471891EE6A69F3768678 /* RouteGeofencing.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RouteGeofencing/RouteGeofencing-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RouteGeofencing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RouteGeofencing/RouteGeofencing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RouteGeofencing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAA9DCC79E79EE5F2296FE09385DC47 /* Build configuration list for PBXNativeTarget "Pods-RouteGeofencing_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB69B9A0BEC674D60823096485862467 /* Debug */,
+				4F6E2FC315302FB06545EC7F1EB58D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2DED96DD9512168608FB292ABEAFE4 /* Build configuration list for PBXNativeTarget "Pods-RouteGeofencing_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A48B23724CB286D423ED777D0C8825 /* Debug */,
+				CFE48D53BE89175A5A2636D0A819CCC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D463E2EAFF47A26BC45F4A1B131F73 /* Build configuration list for PBXNativeTarget "RouteGeofencing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BDE55EAA8AA19BDBF08A6D2AEBD380 /* Debug */,
+				FECB3641EC00F4729C481B12525F825B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module RouteGeofencing {
+  umbrella header "RouteGeofencing-umbrella.h"
+
+  export *
+  module * { export * }
+}
