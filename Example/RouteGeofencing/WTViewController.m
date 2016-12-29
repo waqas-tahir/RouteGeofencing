@@ -7,17 +7,21 @@
 //
 
 #import "WTViewController.h"
+#import <MapKit/MapKit.h>
 
 @interface WTViewController ()
 
 @end
 
 @implementation WTViewController
+#pragma mark Controller_LifeCycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self initializeNavBar];
+    [self loadMapView];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +29,18 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark private_methods
+- (void)loadMapView {
+    MKMapView *mapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:mapView];
+}
+
+- (void)initializeNavBar {
+    self.navigationItem.title = @"Demo";
+}
+
+
+#pragma mark public_methods
 
 @end
