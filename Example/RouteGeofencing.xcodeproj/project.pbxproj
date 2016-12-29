@@ -38,7 +38,8 @@
 /* Begin PBXFileReference section */
 		1E38B9D5D61DF3A7A3216B00 /* Pods-RouteGeofencing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteGeofencing_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RouteGeofencing_Tests/Pods-RouteGeofencing_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		21BACAEBC6A60AA181748902 /* Pods-RouteGeofencing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteGeofencing_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RouteGeofencing_Example/Pods-RouteGeofencing_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3D6455DFF2FF6372FAD1C249 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D6455DFF2FF6372FAD1C249 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43578DB31E14F5AF00F8CAA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		6003F58A195388D20070C39A /* RouteGeofencing_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteGeofencing_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,10 +60,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		638C543D68C1BFDFFDC44C6F /* Pods-RouteGeofencing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteGeofencing_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RouteGeofencing_Tests/Pods-RouteGeofencing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		64208C805BCD0F951568254D /* RouteGeofencing.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RouteGeofencing.podspec; path = ../RouteGeofencing.podspec; sourceTree = "<group>"; };
+		64208C805BCD0F951568254D /* RouteGeofencing.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RouteGeofencing.podspec; path = ../RouteGeofencing.podspec; sourceTree = "<group>"; };
 		6984700B9472219E6B4AB05E /* Pods_RouteGeofencing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouteGeofencing_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72C1CB652952D246A84F8403 /* Pods_RouteGeofencing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouteGeofencing_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7725BC4B1FEEE0610BF1FC28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7725BC4B1FEEE0610BF1FC28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7F8B3AD2F448CE5AF56AFBFD /* Pods-RouteGeofencing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteGeofencing_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RouteGeofencing_Example/Pods-RouteGeofencing_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +118,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				43578DB31E14F5AF00F8CAA8 /* MapKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
