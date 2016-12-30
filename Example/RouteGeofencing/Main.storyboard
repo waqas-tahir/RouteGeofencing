@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,13 +21,40 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" rotateEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2YU-5P-gw6">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <connections>
+                                    <outlet property="delegate" destination="whP-gf-Uak" id="MDr-0L-IKj"/>
+                                </connections>
+                            </mapView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnF-MB-xRg">
+                                <rect key="frame" x="123" y="287.5" width="128" height="78"/>
+                                <state key="normal" image="StartAnnotation"/>
+                                <connections>
+                                    <action selector="routePointSelectionBtnPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="gjH-TH-lnf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NnF-MB-xRg" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="5Bn-jD-mHM"/>
+                            <constraint firstAttribute="trailing" secondItem="2YU-5P-gw6" secondAttribute="trailing" id="5JO-Ey-h9B"/>
+                            <constraint firstItem="2YU-5P-gw6" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" id="76o-LS-vdb"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="2YU-5P-gw6" secondAttribute="bottom" id="Mv3-0p-fO0"/>
+                            <constraint firstItem="NnF-MB-xRg" firstAttribute="bottom" secondItem="2YU-5P-gw6" secondAttribute="centerY" id="Slq-Bl-UCU"/>
+                            <constraint firstItem="2YU-5P-gw6" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="uNV-S4-G89"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="glm-Q4-hM4"/>
+                    <connections>
+                        <outlet property="mapView" destination="2YU-5P-gw6" id="uxG-W1-Jxl"/>
+                        <outlet property="routePtSelectionBtn" destination="NnF-MB-xRg" id="sXZ-T6-d02"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oAT-Ec-Vn2">
@@ -45,4 +73,7 @@
             <point key="canvasLocation" x="-497" y="432"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="StartAnnotation" width="128" height="78"/>
+    </resources>
 </document>
