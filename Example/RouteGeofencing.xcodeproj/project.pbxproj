@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		43578DB51E14F83200F8CAA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43578DB31E14F5AF00F8CAA8 /* MapKit.framework */; };
+		43578DB71E17EE0000F8CAA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43578DB61E17EE0000F8CAA8 /* LaunchScreen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,6 +42,7 @@
 		21BACAEBC6A60AA181748902 /* Pods-RouteGeofencing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteGeofencing_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RouteGeofencing_Example/Pods-RouteGeofencing_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3D6455DFF2FF6372FAD1C249 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		43578DB31E14F5AF00F8CAA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		43578DB61E17EE0000F8CAA8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RouteGeofencing_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteGeofencing_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -141,6 +143,7 @@
 				6003F5A6195388D20070C39A /* WTViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				43578DB61E17EE0000F8CAA8 /* LaunchScreen.storyboard */,
 			);
 			name = "Example for RouteGeofencing";
 			path = RouteGeofencing;
@@ -251,6 +254,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Waqas Tahir";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 4X65BRBS7M;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -281,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				43578DB71E17EE0000F8CAA8 /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -517,6 +524,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 4X65BRBS7M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RouteGeofencing/RouteGeofencing-Prefix.pch";
 				INFOPLIST_FILE = "RouteGeofencing/RouteGeofencing-Info.plist";
@@ -533,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 4X65BRBS7M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RouteGeofencing/RouteGeofencing-Prefix.pch";
 				INFOPLIST_FILE = "RouteGeofencing/RouteGeofencing-Info.plist";

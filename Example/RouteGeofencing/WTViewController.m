@@ -17,7 +17,6 @@
 @property (nonatomic, assign) BOOL isSelectingOrigin;
 @property (nonatomic, assign) CLLocationCoordinate2D originCoordinate;
 @property (nonatomic, assign) CLLocationCoordinate2D destinationCoordinate;
-
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet UIButton *routePtSelectionBtn;
 
@@ -32,6 +31,7 @@
     [self makeBarBtnItem];
     [self initializeNavBar];
     [self setupLocationManager];
+    [self setupMap];
     
 }
 
@@ -54,12 +54,13 @@
 }
 
 - (void)setupLocationManager {
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
     if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined) {
-        self.locationManager = [[CLLocationManager alloc] init];
-        self.locationManager.delegate = self;
         [self.locationManager requestWhenInUseAuthorization];
     }
 }
+
 
 - (void)startRouteMode {
     self.navigationItem.rightBarButtonItem = self.cancelRouteModeBtn;
@@ -137,12 +138,6 @@
     return array;
 }
 
-- (MKOverlayRenderer*)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
-    MKPolylineRenderer *polylineView = [[MKPolylineRenderer alloc] initWithPolyline:overlay];
-    polylineView.strokeColor = [UIColor purpleColor];
-    polylineView.lineWidth = 5.0;
-    return polylineView;
-}
 
 -(NSArray*)calculateRoutesFrom:(CLLocationCoordinate2D)origin to: (CLLocationCoordinate2D)destination {
     NSString* saddr = [NSString stringWithFormat:@"%f,%f", destination.latitude, destination.longitude];
@@ -178,6 +173,20 @@
     return [NSMutableString stringWithFormat:@""];
 }
 
+- (void)setupMap {
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(CLLocationCoordinate2DMake(37.419926, -122.060368), 1000, 1000);
+    [self.mapView setRegion:region];
+}
+
+#pragma mark MKMapViewDelegate 
+
+- (MKOverlayRenderer*)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
+    MKPolylineRenderer *polylineView = [[MKPolylineRenderer alloc] initWithPolyline:overlay];
+    polylineView.strokeColor = [UIColor purpleColor];
+    polylineView.lineWidth = 5.0;
+    return polylineView;
+}
+
 #pragma mark target_action
 - (IBAction)routePointSelectionBtnPressed:(id)sender {
     if (self.isSelectingOrigin) {
@@ -193,6 +202,10 @@
         [self.routePtSelectionBtn setImage:[UIImage imageNamed:@"StartAnnotation"] forState:UIControlStateNormal];
         [self calculateRoute];
     }
+}
+- (IBAction)currentLocBtnPressed:(UIButton *)sender {
+        MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(self.locationManager.location.coordinate, 1000, 1000);
+        [self.mapView setRegion:region];
 }
 
 #pragma mark public_methods
