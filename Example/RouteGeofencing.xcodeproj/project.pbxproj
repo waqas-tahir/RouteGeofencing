@@ -527,6 +527,7 @@
 				DEVELOPMENT_TEAM = 4X65BRBS7M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RouteGeofencing/RouteGeofencing-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../RouteGeofencing/Classes/WTRouteFenceManager.h\"";
 				INFOPLIST_FILE = "RouteGeofencing/RouteGeofencing-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -544,6 +545,7 @@
 				DEVELOPMENT_TEAM = 4X65BRBS7M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RouteGeofencing/RouteGeofencing-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../RouteGeofencing/Classes/WTRouteFenceManager.h\"";
 				INFOPLIST_FILE = "RouteGeofencing/RouteGeofencing-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

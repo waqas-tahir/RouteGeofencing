@@ -9,14 +9,18 @@
 #import "WTViewController.h"
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import <RouteGeofencing/WTRouteFenceManager.h>
 
 @interface WTViewController () <MKMapViewDelegate, CLLocationManagerDelegate>
 @property (nonatomic, strong) UIBarButtonItem *routeModeBtn;
 @property (nonatomic, strong) UIBarButtonItem *cancelRouteModeBtn;
+@property (nonatomic, strong) UIBarButtonItem *startGeofencing;
+@property (nonatomic, strong) NSArray *route;
 @property (nonatomic, strong) CLLocationManager *locationManager;
-@property (nonatomic, assign) BOOL isSelectingOrigin;
 @property (nonatomic, assign) CLLocationCoordinate2D originCoordinate;
 @property (nonatomic, assign) CLLocationCoordinate2D destinationCoordinate;
+@property (nonatomic, assign) BOOL isSelectingOrigin;
+
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (weak, nonatomic) IBOutlet UIButton *routePtSelectionBtn;
 
@@ -46,6 +50,7 @@
 - (void)makeBarBtnItem {
     self.routeModeBtn = [[UIBarButtonItem alloc] initWithTitle:@"Find Route" style:UIBarButtonItemStylePlain target:self action:@selector(startRouteMode)];
     self.cancelRouteModeBtn = [[UIBarButtonItem alloc] initWithTitle:@"Cancel" style:UIBarButtonItemStylePlain target:self action:@selector(cancelRouteMode)];
+    self.startGeofencing = [[UIBarButtonItem alloc] initWithTitle:@"GeoFence" style:UIBarButtonItemStylePlain target:self action:@selector(startGeoFencing)];
 }
 
 - (void)initializeNavBar {
@@ -61,6 +66,10 @@
     }
 }
 
+- (void)startGeoFencing {
+    WTRouteFenceManager *routeFenceMang = [[WTRouteFenceManager alloc] initWithCoordinateList:self.route];
+    
+}
 
 - (void)startRouteMode {
     self.navigationItem.rightBarButtonItem = self.cancelRouteModeBtn;
@@ -82,14 +91,14 @@
 }
 
 - (void)calculateRoute {
-    NSArray *routes = [self calculateRoutesFrom:self.originCoordinate to:self.destinationCoordinate];
+    self.route = [self calculateRoutesFrom:self.originCoordinate to:self.destinationCoordinate];
 
-    NSInteger numberOfSteps = routes.count;
+    NSInteger numberOfSteps = self.route.count;
     
     CLLocationCoordinate2D *coordinates = malloc(sizeof(CLLocationCoordinate2D) * numberOfSteps);
     for (NSInteger index = 0; index < numberOfSteps; index++)
     {
-        CLLocation *location = [routes objectAtIndex:index];
+        CLLocation *location = [self.route objectAtIndex:index];
         CLLocationCoordinate2D coordinate = location.coordinate;
         coordinates[index] = coordinate;
     }
@@ -97,6 +106,8 @@
     free(coordinates);
     
     [self.mapView addOverlay:polyLine];
+    
+    self.navigationItem.rightBarButtonItems = @[self.cancelRouteModeBtn, self.startGeofencing];
 }
 
 - (NSMutableArray *)decodePolyLine: (NSMutableString *)encoded

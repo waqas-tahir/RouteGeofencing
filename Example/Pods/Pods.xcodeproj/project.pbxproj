@@ -8,17 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00ECD1193C5D2B6BA14A298A95543C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0B23AE72A427BB3BB5659ED4F7E73644 /* WTRouteFenceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9BAEC29877C69306FD73592EC62B44 /* WTRouteFenceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		128202F4E7DB20FA69A164C9207657FC /* Pods-RouteGeofencing_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE54776C8997D40856BA49FD5308B25 /* Pods-RouteGeofencing_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2179B17C593C1D4E596EFAC2D72C55AE /* RouteGeofencing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6207631BB48A8924172C23BD9612B11C /* RouteGeofencing-dummy.m */; };
 		39B1D580C458742BE544C2154F0CBAA8 /* Pods-RouteGeofencing_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A31304A5527D098D401A610BC8033AA6 /* Pods-RouteGeofencing_Tests-dummy.m */; };
-		431A49B01E0D593D00F2FEED /* WTRouteFenceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 431A49AE1E0D593D00F2FEED /* WTRouteFenceManager.h */; };
-		431A49B11E0D593D00F2FEED /* WTRouteFenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 431A49AF1E0D593D00F2FEED /* WTRouteFenceManager.m */; };
-		431A49B41E0D6C6A00F2FEED /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431A49B21E0D6BFF00F2FEED /* CoreLocation.framework */; };
+		3CE1A1E9E1EE1CBCB12F8919708A3126 /* RouteGeofencing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6207631BB48A8924172C23BD9612B11C /* RouteGeofencing-dummy.m */; };
 		5BB9C683724B41DB83913FE101667DEA /* Pods-RouteGeofencing_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB5F9682BB65BB982FD1B8650281A50 /* Pods-RouteGeofencing_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95750B62DDC999BCF50FF53331521FA9 /* RouteGeofencing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B60B2806EEB6C982312E12A7CEADFA4D /* RouteGeofencing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99C277CB38C1211AAB34DB1AC1F623A2 /* Pods-RouteGeofencing_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CDD7772E0BD576DAD0C1244128553C /* Pods-RouteGeofencing_Example-dummy.m */; };
 		BBD1535CC6F7841C12F7976BFA9D1059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		C1420B87E11079766BF737808C9112D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		ECD1143B7FBC727529469045FE24D70D /* RouteGeofencing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B60B2806EEB6C982312E12A7CEADFA4D /* RouteGeofencing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E53C077EABB1689D39EAD975F9235D66 /* WTRouteFenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E915000272FEE58D15C7992613B825E4 /* WTRouteFenceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,27 +33,24 @@
 /* Begin PBXFileReference section */
 		003242090ACFAB0497600BC1EDD2A329 /* Pods-RouteGeofencing_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouteGeofencing_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0840F75FED886D806E9AECEB2E3D53EA /* Pods-RouteGeofencing_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RouteGeofencing_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		13056CF6EFDBE1C85C965636CA79D565 /* Pods-RouteGeofencing_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RouteGeofencing_Tests.modulemap"; sourceTree = "<group>"; };
+		13056CF6EFDBE1C85C965636CA79D565 /* Pods-RouteGeofencing_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RouteGeofencing_Tests.modulemap"; sourceTree = "<group>"; };
 		1994D4F0CB8EA24A21DA422D1A459E9E /* Pods-RouteGeofencing_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RouteGeofencing_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1D63ADCF76603DB1A3CAECC7EC453AD5 /* Pods-RouteGeofencing_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouteGeofencing_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		26DD18F39274976E9AFF9F500AEE4BE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		276A5B9B763D0C01C57BE93E76AD16B3 /* Pods-RouteGeofencing_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RouteGeofencing_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D71AC9D11C1B5AFB68E3131EF37F6E8 /* Pods-RouteGeofencing_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RouteGeofencing_Example.modulemap"; sourceTree = "<group>"; };
+		2D71AC9D11C1B5AFB68E3131EF37F6E8 /* Pods-RouteGeofencing_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RouteGeofencing_Example.modulemap"; sourceTree = "<group>"; };
 		2D977D81B61BA20DB80AEDAF3E6660F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D526AD12DD0FB697A7DE446DBAD1EBA /* Pods-RouteGeofencing_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouteGeofencing_Example-frameworks.sh"; sourceTree = "<group>"; };
-		431A49AE1E0D593D00F2FEED /* WTRouteFenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTRouteFenceManager.h; sourceTree = "<group>"; };
-		431A49AF1E0D593D00F2FEED /* WTRouteFenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTRouteFenceManager.m; sourceTree = "<group>"; };
-		431A49B21E0D6BFF00F2FEED /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		474D9C690BEEBC0F4C4AE2F0805C761E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6207631BB48A8924172C23BD9612B11C /* RouteGeofencing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RouteGeofencing-dummy.m"; sourceTree = "<group>"; };
-		62E515ED14CE0610122CCE6BDA4A7259 /* RouteGeofencing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RouteGeofencing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E515ED14CE0610122CCE6BDA4A7259 /* RouteGeofencing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RouteGeofencing.framework; path = RouteGeofencing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67CDD7772E0BD576DAD0C1244128553C /* Pods-RouteGeofencing_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RouteGeofencing_Example-dummy.m"; sourceTree = "<group>"; };
-		758BC5FD3B7D3190491CD5C0B746A407 /* RouteGeofencing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RouteGeofencing.modulemap; sourceTree = "<group>"; };
+		758BC5FD3B7D3190491CD5C0B746A407 /* RouteGeofencing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RouteGeofencing.modulemap; sourceTree = "<group>"; };
 		7AB1024450BD471891EE6A69F3768678 /* RouteGeofencing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RouteGeofencing.xcconfig; sourceTree = "<group>"; };
 		7EFB4C9364547F2A6535B78043C6760A /* Pods-RouteGeofencing_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouteGeofencing_Tests-resources.sh"; sourceTree = "<group>"; };
 		837444043F04C9EF7D252251FCF10B79 /* RouteGeofencing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouteGeofencing-prefix.pch"; sourceTree = "<group>"; };
-		8377CA03C6FF3B906BA3CF0E1E9706B1 /* Pods_RouteGeofencing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouteGeofencing_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8377CA03C6FF3B906BA3CF0E1E9706B1 /* Pods_RouteGeofencing_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RouteGeofencing_Tests.framework; path = "Pods-RouteGeofencing_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A31304A5527D098D401A610BC8033AA6 /* Pods-RouteGeofencing_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RouteGeofencing_Tests-dummy.m"; sourceTree = "<group>"; };
 		A7F12171F3D3319182E829D7C8A46EAE /* Pods-RouteGeofencing_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouteGeofencing_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A848FDFA7552F0C73263F1D3690B355E /* Pods-RouteGeofencing_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouteGeofencing_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,8 +60,10 @@
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CCD7A1937978C5D9739EC79A28A0A766 /* Pods-RouteGeofencing_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouteGeofencing_Example-resources.sh"; sourceTree = "<group>"; };
 		D1C96E6EC771B938005FBEA81A7E1DF0 /* Pods-RouteGeofencing_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouteGeofencing_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E915000272FEE58D15C7992613B825E4 /* WTRouteFenceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WTRouteFenceManager.m; sourceTree = "<group>"; };
+		EA9BAEC29877C69306FD73592EC62B44 /* WTRouteFenceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WTRouteFenceManager.h; sourceTree = "<group>"; };
 		EC9349B7A87E8E11F00BBAE0FACC6E80 /* Pods-RouteGeofencing_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RouteGeofencing_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F3BC0D908502351B63A3C5C79631B42C /* Pods_RouteGeofencing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RouteGeofencing_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BC0D908502351B63A3C5C79631B42C /* Pods_RouteGeofencing_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RouteGeofencing_Example.framework; path = "Pods-RouteGeofencing_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431A49B41E0D6C6A00F2FEED /* CoreLocation.framework in Frameworks */,
 				C1420B87E11079766BF737808C9112D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,19 +97,11 @@
 		0A22C4A7E5286EEFB9C34C7F1E78E193 /* RouteGeofencing */ = {
 			isa = PBXGroup;
 			children = (
-				26757E1D45FF0103183AAB148AEEEEF7 /* RouteGeofencing */,
+				FFC8AABAE0E44B25DE4C5D9D86AB8622 /* RouteGeofencing */,
 				B7DA16B448F2D9E9173EA1B81544BE1E /* Support Files */,
 			);
 			name = RouteGeofencing;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		26757E1D45FF0103183AAB148AEEEEF7 /* RouteGeofencing */ = {
-			isa = PBXGroup;
-			children = (
-				A95A1075606E7B6BF44A37D238F14903 /* Classes */,
-			);
-			path = RouteGeofencing;
 			sourceTree = "<group>";
 		};
 		419F2267729B958055083691DAFD8C72 /* Targets Support Files */ = {
@@ -179,12 +168,13 @@
 			path = "Target Support Files/Pods-RouteGeofencing_Tests";
 			sourceTree = "<group>";
 		};
-		A95A1075606E7B6BF44A37D238F14903 /* Classes */ = {
+		AD719BC96E303FA724084E13EB9BE0B3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				431A49AE1E0D593D00F2FEED /* WTRouteFenceManager.h */,
-				431A49AF1E0D593D00F2FEED /* WTRouteFenceManager.m */,
+				EA9BAEC29877C69306FD73592EC62B44 /* WTRouteFenceManager.h */,
+				E915000272FEE58D15C7992613B825E4 /* WTRouteFenceManager.m */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -205,7 +195,6 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				431A49B21E0D6BFF00F2FEED /* CoreLocation.framework */,
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
@@ -229,15 +218,24 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		FFC8AABAE0E44B25DE4C5D9D86AB8622 /* RouteGeofencing */ = {
+			isa = PBXGroup;
+			children = (
+				AD719BC96E303FA724084E13EB9BE0B3 /* Classes */,
+			);
+			name = RouteGeofencing;
+			path = RouteGeofencing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18D83E4F5E0818A7D5A298EFC14086A5 /* Headers */ = {
+		14B8B5229219AB09283520116DA7EE3D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD1143B7FBC727529469045FE24D70D /* RouteGeofencing-umbrella.h in Headers */,
-				431A49B01E0D593D00F2FEED /* WTRouteFenceManager.h in Headers */,
+				95750B62DDC999BCF50FF53331521FA9 /* RouteGeofencing-umbrella.h in Headers */,
+				0B23AE72A427BB3BB5659ED4F7E73644 /* WTRouteFenceManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +280,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4D463E2EAFF47A26BC45F4A1B131F73 /* Build configuration list for PBXNativeTarget "RouteGeofencing" */;
 			buildPhases = (
-				32D3FBFA774A82E7DA1C1976FD4B4CB9 /* Sources */,
+				DBC48F7F8F124E674BEFC3EC0A89B460 /* Sources */,
 				1FEFB4A2EADF4FEF266B7231E159A5CD /* Frameworks */,
-				18D83E4F5E0818A7D5A298EFC14086A5 /* Headers */,
+				14B8B5229219AB09283520116DA7EE3D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -341,15 +339,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32D3FBFA774A82E7DA1C1976FD4B4CB9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				431A49B11E0D593D00F2FEED /* WTRouteFenceManager.m in Sources */,
-				2179B17C593C1D4E596EFAC2D72C55AE /* RouteGeofencing-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		69515CBF019825BB4EF6B88EE2573B47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +352,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C277CB38C1211AAB34DB1AC1F623A2 /* Pods-RouteGeofencing_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC48F7F8F124E674BEFC3EC0A89B460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE1A1E9E1EE1CBCB12F8919708A3126 /* RouteGeofencing-dummy.m in Sources */,
+				E53C077EABB1689D39EAD975F9235D66 /* WTRouteFenceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
