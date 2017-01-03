@@ -30,9 +30,9 @@ typedef enum {
 /*
  Designated inilizer
  */
-- (instancetype)initWithCoordinateList:(NSArray*)coordinateArray;
-
-
+- (instancetype)initWithCoordinateList:(NSArray*)coordinateArray geoFenceAtDistance:(NSArray*)fenceList;
+- (void)startGeoFencing;
+- (void)stopGeoFencing;
 
 @end
 
